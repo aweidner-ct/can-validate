@@ -18,8 +18,9 @@
 */
 
 define([
-    "can-validate",
-    "validate"
+    "can",
+    "validate",
+    "can-validate"
 ], function(can, validatejs) {
     var processOptions = function (opts) {
         // check required
