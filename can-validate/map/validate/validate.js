@@ -57,7 +57,7 @@
 define([
     "can",
     "can-validate/can-validate"
-], function (can, can-validate) {
+], function (can) {
 
     var proto = can.Map.prototype;
     var oldSet = proto.__set;
