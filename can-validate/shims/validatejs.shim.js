@@ -18,7 +18,7 @@
 */
 
 define([
-    "can-validate/can-validate",
+    "can-validate",
     "validate"
 ], function(can, validatejs) {
     var processOptions = function (opts) {

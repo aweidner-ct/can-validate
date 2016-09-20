@@ -56,7 +56,7 @@
 
 define([
     "can",
-    "can-validate/can-validate"
+    "can-validate"
 ], function (can) {
 
     var proto = can.Map.prototype;

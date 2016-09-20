@@ -151,6 +151,4 @@ define([
     }, {});
 
     can.validate = Validate;
-    
-    return can
 });
