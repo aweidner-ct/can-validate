@@ -305,7 +305,7 @@ define([
             can.each(computes, function (item) {
                 item.compute.bind('change', function () {
                     itemObj.value = self.attr(itemObj.key);
-                    self._validateOne(itemObj, processedObj);
+                    self._validateOne(itemObj, resolveComputes(item, processedObj));
                 });
             });
 
